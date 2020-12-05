@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="shopping.daraz.testElectronicDevices">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="exitBrowser"/>
+          <include name="electronicDevices"/>
+          <include name="verifyHomePage"/>
+          <include name="callSetup"/>
+        </methods>
+      </class> <!-- shopping.daraz.testElectronicDevices -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

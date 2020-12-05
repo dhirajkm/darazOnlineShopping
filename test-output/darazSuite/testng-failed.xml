@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [darazSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="darazTest(failed)">
+    <classes>
+      <class name="shopping.daraz.TestCustomerCare">
+        <methods>
+          <include name="customerCare"/>
+          <include name="exitBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- shopping.daraz.TestCustomerCare -->
+      <class name="shopping.daraz.TestOrderTracking">
+        <methods>
+          <include name="exitBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="trackMyOrder"/>
+        </methods>
+      </class> <!-- shopping.daraz.TestOrderTracking -->
+      <class name="shopping.daraz.TestElectronicDevices">
+        <methods>
+          <include name="verifyHomePage"/>
+          <include name="callSetup"/>
+          <include name="electronicDevices"/>
+          <include name="exitBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- shopping.daraz.TestElectronicDevices -->
+    </classes>
+  </test> <!-- darazTest(failed) -->
+</suite> <!-- Failed suite [darazSuite] -->
